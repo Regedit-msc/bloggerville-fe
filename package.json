@@ -1,0 +1,27 @@
+{
+  "name": "bloggerville-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/style.css -o public/style.css",
+    "watch": "postcss src/style.css -o public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomefavourite/bloggerville-fe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomefavourite/bloggerville-fe/issues"
+  },
+  "homepage": "https://github.com/jomefavourite/bloggerville-fe#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-import": "^13.0.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
